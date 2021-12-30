@@ -5,6 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="The Home of Drinking Games - A non-profit site providing games, entertainment and info on all things alcohol">
         <meta name="author" content="" />
+        <base href="/BGG-dev" target="_blank">
         <title>Beer Goggle Games</title>
         <!-- Favicon-->
         <link rel="icon" type="image/x-icon" href="assets/images/graphics/favicon.ico" />
@@ -217,13 +218,15 @@
                     <aside class="bg-primary bg-gradient rounded-3 p-4 p-sm-5 mt-5">
                         <div class="d-flex align-items-center justify-content-between flex-column flex-xl-row text-center text-xl-start">
                             <div class="mb-4 mb-xl-0">
-                                <div class="fs-3 fw-bold text-white">New products, delivered to you.</div>
-                                <div class="text-white-50">Sign up for our newsletter for the latest updates.</div>
+                                <div class="fs-3 fw-bold text-white">Mark Your Mark!</div>
+                                <div class="text-white-50"><b>Know a drinking game that we don't?</b></div>
+                                <div class="text-white-50">Submit the game details using our submission form. If we like it we'll upload it to the BGG website and credit you for your contribution!</div>
                             </div>
                             <div class="ms-xl-4">
                                 <div class="input-group mb-2">
-                                    <input class="form-control" type="text" placeholder="Email address..." aria-label="Email address..." aria-describedby="button-newsletter" />
-                                    <button class="btn btn-outline-light" id="button-newsletter" type="button">Sign Up</button>
+                                    <div class="d-grid">
+                                        <button class="btn btn-primary btn-lg bg-light" id="submitButton" type="submit" href="contact">Submit a Game</button>
+                                    </div>
                                 </div>
                                 <div class="small text-white-50">We care about privacy, and will never share your data.</div>
                             </div>
