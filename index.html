@@ -143,33 +143,25 @@
                     <div class="row gx-5 justify-content-center">
                         <div class="col-lg-8 col-xl-6">
                             <div class="text-center">
-                                <h2 class="fw-bolder">From our blog</h2>
+                                <h2 class="fw-bolder">Most Popular Categories</h2>
                                 <p class="lead fw-normal text-muted mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque fugit ratione dicta mollitia. Officiis ad.</p>
                             </div>
                         </div>
                     </div>
                     <div class="row gx-5">
+                        
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
-                                <img class="card-img-top" src="https://dummyimage.com/600x350/ced4da/6c757d" alt="..." />
-                                <div class="card-body p-4">
-                                    <div class="badge bg-primary bg-gradient rounded-pill mb-2">News</div>
-                                    <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">Blog post title</h5></a>
-                                    <p class="card-text mb-0">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <div class="card-header">
+                                    <h5>Team Games</h5>
                                 </div>
-                                <div class="card-footer p-4 pt-0 bg-transparent border-top-0">
-                                    <div class="d-flex align-items-end justify-content-between">
-                                        <div class="d-flex align-items-center">
-                                            <img class="rounded-circle me-3" src="https://dummyimage.com/40x40/ced4da/6c757d" alt="..." />
-                                            <div class="small">
-                                                <div class="fw-bold">Kelly Rowan</div>
-                                                <div class="text-muted">March 12, 2021 &middot; 6 min read</div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <a href="teamgames"><img class="card-img-top" src="assets/images/categories/team.jpg" alt="..." /></a>
+                                <div class="card-body p-4">
+                                    <a href="teamgames" class="btn btn-primary">View Games</a>
                                 </div>
                             </div>
                         </div>
+                        
                         <div class="col-lg-4 mb-5">
                             <div class="card h-100 shadow border-0">
                                 <img class="card-img-top" src="https://dummyimage.com/600x350/adb5bd/495057" alt="..." />
@@ -232,7 +224,49 @@
                     </aside>
                 </div>
             </section>
-            <include src="faq.html"></include>
+            
+            <section>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="min-width:100%">
+                  <br>
+                  <br>
+                  <ol class="carousel-indicators">
+                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner" role="listbox">
+                    <!-- Slide One - Set the background image for this slide in the line below -->
+                      <div class="carousel-item active" style="background-image:url('assets/images/graphics/BGGBW.png')" href="about">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h2></h2>
+                        <p></p>
+                      </div>
+                    </div>
+                    <!-- Slide Two - Set the background image for this slide in the line below -->
+                    <div class="carousel-item" style="background-image:url('assets/images/graphics/BG1.png');" >
+                      <div class="carousel-caption d-none d-md-block" style="padding:5px;background-color:rgba(39,143,255, 0.9);">
+                        <h2>Bonus Game Editions</h2>
+                        <p>Each of our games has a bonus version of the original game so that even if you've played it before, there are extra rules so that it can be played again and on the next level.</p>
+                      </div>
+                    </div>
+                    <!-- Slide Three - Set the background image for this slide in the line below -->
+                    <div class="carousel-item" style="background-image:url('assets/images/graphics/BG3.png');" href="contact">
+                      <div class="carousel-caption d-none d-md-block" style="padding:5px;background-color:rgba(39,143,255, 0.9);">
+                        <h3>Get In Contact</h3>
+                        <p>Feel free to contact us with any thoughts, ideas, offers, comments or feedback for the website using our contact form or social media.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+            </section>
         </main>
         <!-- Footer-->
         <footer class="bg-light py-4 mt-auto" style="background-image:url(assets/images/graphics/background1.png);background-repeat: repeat;background-size: 300px 300px;">
